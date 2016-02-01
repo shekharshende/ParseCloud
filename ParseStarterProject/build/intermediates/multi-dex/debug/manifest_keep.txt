@@ -1,0 +1,22 @@
+-keep class com.parse.starter.StarterApplication {
+    <init>();
+    void attachBaseContext(android.content.Context);
+}
+-keep class com.parse.starter.MainActivity { <init>(); }
+-keep class com.parse.ui.ParseLoginActivity { <init>(); }
+-keep class com.parse.starter.LoginActivity { <init>(); }
+-keep class com.parse.starter.UserListActivity { <init>(); }
+-keep class service.GetUserLocationService { <init>(); }
+-keep class service.UpadateUserLocation { <init>(); }
+-keep class com.parse.starter.dummy.MapActivity { <init>(); }
+-keep class com.google.android.gms.ads.AdActivity { <init>(); }
+-keep class com.google.android.gms.ads.purchase.InAppPurchaseActivity { <init>(); }
+-keep class com.google.android.gms.measurement.AppMeasurementContentProvider { <init>(); }
+-keep class com.google.android.gms.measurement.AppMeasurementReceiver { <init>(); }
+-keep class com.google.android.gms.measurement.AppMeasurementService { <init>(); }
+-keep public class * extends android.app.backup.BackupAgent {
+    <init>();
+}
+-keep public class * extends java.lang.annotation.Annotation {
+    *;
+}

@@ -1,0 +1,62 @@
+<!--
+  ~ Copyright (c) 2015-present, Parse, LLC.
+  ~ All rights reserved.
+  ~
+  ~ This source code is licensed under the BSD-style license found in the
+  ~ LICENSE file in the root directory of this source tree. An additional grant
+  ~ of patent rights can be found in the PATENTS file in the same directory.
+  -->
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context=".MainActivity">
+
+    <EditText
+        android:id="@+id/txtUserName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingTop="10dp"
+        android:hint="User Name" />
+
+    <EditText
+        android:id="@+id/txtPass"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingTop="10dp"
+        android:inputType="textPassword"
+        android:hint="Password" />
+
+    <EditText
+        android:id="@+id/txtEmail"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="textEmailAddress"
+        android:paddingTop="10dp"
+        android:hint="Email" />
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/edtReferal"
+        android:inputType="number"
+        android:hint="Enter referal code"/>
+    <CheckBox
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="isAdmin"
+        android:id="@+id/chkAdmin"
+        android:layout_gravity="left"/>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingTop="10dp"
+        android:id="@+id/btnAddUser"
+        android:text="Sign Up"/>
+</LinearLayout>
+<!-- From: file:/home/synerzip/Documents/ParseCloud/ParseStarterProject/src/main/res/layout/activity_main.xml -->
